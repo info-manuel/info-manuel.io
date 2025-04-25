@@ -1,6 +1,6 @@
 title: My Jekyll Blog
 description: A simple blog using the Minima theme
-theme: minima
+remote_theme: "jekyll/minima@1e8a445"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
