@@ -91,8 +91,8 @@
 #     part of social-links list.
 #   hide_site_feed_link: false
 
-title: Bienvenidos a Mi Blog
-description: Un blog como cualquier otro
+title: Wellcome to My Blog
+description: Just my things
 remote_theme: "jekyll/minima@1e8a445"
 plugins:
   - jekyll-feed
