@@ -1,5 +1,5 @@
-title: My Jekyll Blog
-description: A simple blog using the Minima theme
+title: Bienvenidos a Mi Blog
+description: Un blog como cualquier otro
 remote_theme: "jekyll/minima@1e8a445"
 plugins:
   - jekyll-feed
