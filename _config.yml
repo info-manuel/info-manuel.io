@@ -91,9 +91,16 @@
 #     part of social-links list.
 #   hide_site_feed_link: false
 
-title: Wellcome to My Blog
-description: Just my things
+# Site settings
+title: Manuel Ordovas
+description: My blog
 remote_theme: "jekyll/minima@1e8a445"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+# User settings
+username: Manuel Ordovas
+user_description: I’m a curious, hands-on guy who loves learning about all sorts of things, especially in science and tech, and using that knowledge in practical ways. I’m comfortable coding in R, working through data and solving complex problems like they’re puzzles. At home, I enjoy tackling projects like plumbing, electrical work and masonry. Electronics are a big interest too—I’ve fixed several things for the satisfaction of it. I also enjoy forging, hammering metal into shape, and I spend time designing in 3D, printing my creations with a 3D printer, and sometimes sand casting them to make sturdy metal objects.
+user_title: Tinkerer
+email: info@manuelordovas.com
