@@ -1,2 +1,14 @@
-<h2>Hello from the _includes/about-section.html side</h2>
-<p>The lidea is to make _layouts/home.html file dynamically load what present in the _includes/about-section.html</p>
+<div class="about-section">
+  <h2>About This Page</h2>
+  <p>{{ site.data.about.description }}</p>
+  <h3>Currently Working On</h3>
+  <ul>
+    {% for item in site.data.about.currently_working_on %}
+      <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  <ul>
+    {% for element in site.data.about.projects_to_upload %}
+    <li>{{ element }}</li>
+  </ul>
+</div>
