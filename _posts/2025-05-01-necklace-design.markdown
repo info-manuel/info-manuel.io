@@ -11,11 +11,11 @@ I want to create a handmade gift for my wife: a necklace that securely holds a c
 
 Here is the design plan I believe will succeed:
 
-![Project Schema](/assets/images/Project-schema.png)
+![Project Schema](/assets/images/necklace-design/Project-schema.png)
 
 I’ve outlined the steps I’ll follow. Step 1 is the conceptual schematic. To allow the coin to be removable, the container must be separable into two parts. I developed this design:
 
-![Full-Design-Constrained](/assets/images/Full-Design-Constrained.png)
+![Full-Design-Constrained](/assets/images/necklace-design/Full-Design-Constrained.png)
 
 *Drawn in [ExcaliDraw](https://excalidraw.com)*
 
@@ -25,8 +25,7 @@ In this design the first piece will hold the coin from one face and the second p
 
 After learning [FreeCad](https://www.freecad.org), I modeled both parts as shown below:
 
-![3d_part1](/assets/images/3d_part1.png)
-![3d_part1](/assets/images/3d_part2.png)
+![3d_parts](/assets/images/necklace-design/3d_parts.png)
 
 You will notice two key differences against the original design:
 
