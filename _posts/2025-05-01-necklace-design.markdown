@@ -10,6 +10,7 @@ I want to gift something hand-made to my wife, the idea is to create a neclkace 
 
 A picture with the initial design:
 ![My initial design](/assets/images/Excalidraw-Design.png)
+
 *Drawn in [ExcaliDraw](https://excalidraw.com)*
 
 After some tinkering with [FreeCad](https://www.freecad.org), I decided to constrain the first part of the object like this:
@@ -26,3 +27,5 @@ You will notice two main differences against the original design:
 Both are driven by ease of casting reasons, it is easier to create an object like this and then file the excess than to create a mold with that small and difficult geometry.
 
 **Simplify the Z axis geometry in the mold to improve the chances of success!**
+
+....In progress....
