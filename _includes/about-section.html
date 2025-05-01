@@ -1,16 +1,12 @@
 <div class="about-section">
-  <h2>About This Page</h2>
+  <h2>Sobre este blog</h2>
   <p>{{ site.data.about.description }}</p>
-  <h3>Currently Working On</h3>
+  <h2>Qué tengo en la cabeza</h2>
+  <p>{{ site.data.about.thoughts }}</p>
+  <h3>Actualmente trabajando en</h3>
   <ul>
     {% for item in site.data.about.currently_working_on %}
       <li>{{ item }}</li>
-    {% endfor %}
-  </ul>
-  <h3>Projects that ill try to upload!</h3>
-  <ul>
-    {% for item in site.data.about.projects_to_upload %}
-    <li>{{ item }}</li>
     {% endfor %}
   </ul>
 </div>

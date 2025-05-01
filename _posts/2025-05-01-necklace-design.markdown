@@ -1,39 +1,43 @@
 ---
 layout: post
-title:  "Necklace design"
+title:  "Diseño de colgante"
 date:   2025-05-01 10:00:49 +0200
 categories: jekyll update
 ---
 
-# Project Necklace
+# Projecto colgante
 
-I want to create a handmade gift for my wife: a necklace that securely holds a coin without damaging it (e.g., by drilling a hole or soldering a hook).
+Quiero hacerle un regalo a mi mujer, un colgante con una moneda de oro, el problema está en que no quiero dañarla, por lo que agujerearla o soldarla a un aro no es una alternativa.
 
-Here is the design plan I believe will succeed:
+Este es el plan con el que creo que tendré éxito:
 
 ![Project Schema](/assets/images/necklace-design/Project-schema.png)
 
-I’ve outlined the steps I’ll follow. Step 1 is the conceptual schematic. To allow the coin to be removable, the container must be separable into two parts. I developed this design:
+Mi diseño "en sucio" quedaría como muestro abajo, de esta forma la moneda podrá extraerse sin destruir el colgante:
 
 ![Full-Design-Constrained](/assets/images/necklace-design/Full-Design-Constrained.png)
 
-*Drawn in [ExcaliDraw](https://excalidraw.com)*
+*Dibujado en [ExcaliDraw](https://excalidraw.com)*
 
-In this design the first piece will hold the coin from one face and the second piece will hold the coin from the other face, a groove will secure one part of the coin from above and a rivet will secure it from below.
+Este diseño consta de dos piezas necesarias para sujetar a la moneda, la primera pieza queda encajada dentro de la segunda, asegurada con un "pin" en la parte superior y con un remache en la parte inferior.
 
-* Coin dimensions: Diameter 27mm, thickness 2.1 mm.
+* Dimensiones de la moneda: Diametro 27mm, grosor 2.1mm.
 
-After learning [FreeCad](https://www.freecad.org), I modeled both parts as shown below:
+Después de ver un par de tutoriales de [FreeCad](https://www.freecad.org), modelo mi diseño "en sucio":
 
 ![3d_parts](/assets/images/necklace-design/3d_parts.png)
 
-You will notice two key differences against the original design:
+Son observables dos grandes diferencias:
 
-1. The pin on the first piece, which fits into the groove of the second, is not centered but xtends to the edges.
-2. There are no holes.
+1. El pin de la parte superior es simplemente una extrusión en el eje vertical (Z).
+2. No hay agujeros.
 
-These changes simplify casting. It’s easier to create a solid object and later file excess material or drill holes than to cast a mold with complex, small geometries.
+Ambas diferencias tienen como objetivo simplificar el molde sobre el cuál se volcará la fundición de metal.
 
-**Recommendation: Simplify the Z-axis geometry in the mold to increase the likelihood of a successful cast!.**
+Mi recomendación personal es la de simplificar al máximo uno de los ejes (X/Y/Z) antes de la función, además es bastante más sencillo hacer agujeros o lijar material sobrante que preparar un molde con geometría en los tres ejes:
+
+![Geometria_Compleja](/assets/images/necklace-design/Geometria_Compleja.png)
+
+No podemos hacer un molde de arena de un objeto como el mostrado arriba en *verde*.
 
 .... Lets see how the 3d prints turns out (it will continue..) ...
