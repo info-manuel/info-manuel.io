@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Necklace design"
-date:   2025-05-01 15:58:49 +0200
+date:   2025-05-01 10:00:49 +0200
 categories: jekyll update
 ---
 I want to gift something hand-made to my wife, the idea is to create a neclkace that holds a coin without the need of damaging it (drill a hole/solder a hook) 
